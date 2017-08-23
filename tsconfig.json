@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "ES6",
+      "skipLibCheck": true,
+      "declaration": false,
+      "noImplicitAny": false,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true,
+      "noLib": false,
+      "experimentalDecorators": true,
+      "outDir": "bin/"
+    },
+    "files": [
+        "src/server.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "bin",
+      ".vscode"
+    ]
+}
